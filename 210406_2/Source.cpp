@@ -8,7 +8,6 @@ void main() {
 	float circle2 = _PI * _inumber5 * _inumber5;
 
 	/*
-	float PI = 3.141592;
     int diameter = 10;
     float radius = diameter /2;
     float roundOfCircle = diameter * PI;
