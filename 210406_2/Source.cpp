@@ -2,20 +2,12 @@
 
 void main() {
 	
-	int _inumber5 = 5;
+	int _inumber10 = 10;
 	float _PI = 3.141592;
-	float circle1 = _PI * _inumber5;
-	float circle2 = _PI * _inumber5 * _inumber5;
+	float _circle = _inumber10 / 2;
 
-	/*
-    int diameter = 10;
-    float radius = diameter /2;
-    float roundOfCircle = diameter * PI;
-    float areaOfCircle = radius * radius * PI;
-	*/
-
-	printf("¿øÀÇ ³ĞÀÌ = %f \n", circle1);
-	printf("¿øÀÇ µÑ·¹ = %f \n", circle2);
+	printf("ì›ì˜ ë‘˜ë ˆ = %f \n", _PI * _circle);
+	printf("ì›ì˜ ë„“ì´ = %f \n", _PI * (_circle*_circle));
 
 	fgetc(stdin);
 }
